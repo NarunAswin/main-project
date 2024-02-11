@@ -1,0 +1,28 @@
+#backgroundimage{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('WhatsApp\ Image\ 2024-01-31\ at\ 11.02.16\ PM\ \(1\).jpeg');
+  background-size: contain;
+  position: absolute;
+}
+#navbar{
+  display: flex;
+  justify-content: right;
+  column-gap: 100px;
+  margin: 25px;
+  padding: 10px;
+ 
+}
+#navbar  :hover{
+  color: green
+}
+#navbar input{
+  margin-bottom: 300px;
+  text-align: center;
+  width: 35vw;
+  height: 5vh;
+  border-radius: 20px;
+}
+#logo{
+  background-image: url("WhatsApp\ Image\ 2024-02-09\ at\ 9.47.44\ PM.ico");
+}
