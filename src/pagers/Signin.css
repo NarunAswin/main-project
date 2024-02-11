@@ -8,14 +8,24 @@
 #login{
     background-color: white;
     width: 31vw;
-    height: 60vh;
+    height: 70vh;
     box-shadow: 10px 1px 6px 5px;
-    transform: translate(650px,200px)
+    transform: translate(650px,150px)
 }
 #login h1{
     transform: translate(50px,20px);
+    text-decoration:underline
     
 }
 #login p{
     margin-left: 50px;
+}
+.password input{
+    width: 250px;
+    height: 30px;
+    margin-left: 80px;
+}
+.password h2{
+    margin-left: 80px   ;
+    text-decoration: underline;
 }

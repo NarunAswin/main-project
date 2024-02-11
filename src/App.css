@@ -8,6 +8,7 @@
 #logo{
   width: 140px;
   height: 140px;
+  cursor: pointer;
 }
 #navbar{
   display: flex;
@@ -19,10 +20,11 @@
 }
 #navbar ul{
   display: flex;
-  column-gap: 100px;
+  column-gap: 200px;
   list-style: none;
   padding-top: 30px;
   text-align: center;
+  font-weight: bold;
 }
 .navbarcolor{
   text-decoration: none;
@@ -33,5 +35,8 @@
   height: 30px;
   margin-top: 40px;
   border-radius: 10px;
+}
+#navbar ul :hover{
+  color: green;
 }
 

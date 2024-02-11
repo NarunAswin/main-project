@@ -11,10 +11,10 @@ function App() {
         <div id="navbar">
           <img src={image1} id="logo" />
           <ul>
-          <li><Link className='navbarcolor' to={"Signin"}>SIGNIN</Link></li>
-          <li> <Link  className='navbarcolor' to={"about"}>HOME</Link></li>
-          <li> <Link className='navbarcolor' to={"about"}>IMAGE</Link></li>
-          <li><Link className='navbarcolor' to={"about"}>LOGINOUT</Link></li>
+          <li><Link className='navbarcolor' to={"about"}>HOME</Link></li>
+          <li> <Link  className='navbarcolor' to={"about"}>IMAGES</Link></li>
+          <li> <Link className='navbarcolor' to={"about"}>NEWS</Link></li>
+          <li><Link className='navbarcolor' to={"Signin"}>SIGNUP</Link></li>
         </ul>
         <div id='searchbox'>
         <input placeholder='search enter' />
