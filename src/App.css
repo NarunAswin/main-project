@@ -23,6 +23,8 @@
   height: 5vh;
   border-radius: 20px;
 }
-#logo{
-  background-image: url("WhatsApp\ Image\ 2024-02-09\ at\ 9.47.44\ PM.ico");
+#navbar img{
+  width: 150px;
+  height: 150px;
+  transform: translate(-100px,0px);
 }
