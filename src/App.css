@@ -3,28 +3,35 @@
   height: 100vh;
   background-image: url('WhatsApp\ Image\ 2024-01-31\ at\ 11.02.16\ PM\ \(1\).jpeg');
   background-size: contain;
-  position: absolute;
+  position: relative;
+}
+#logo{
+  width: 140px;
+  height: 140px;
 }
 #navbar{
   display: flex;
-  justify-content: right;
-  column-gap: 100px;
-  margin: 25px;
-  padding: 10px;
- 
-}
-#navbar  :hover{
-  color: green
-}
-#navbar input{
-  margin-bottom: 300px;
+  justify-content: space-between;
   text-align: center;
-  width: 35vw;
-  height: 5vh;
-  border-radius: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: whitesmoke;
 }
-#navbar img{
-  width: 150px;
-  height: 150px;
-  transform: translate(-100px,0px);
+#navbar ul{
+  display: flex;
+  column-gap: 100px;
+  list-style: none;
+  padding-top: 30px;
+  text-align: center;
 }
+.navbarcolor{
+  text-decoration: none;
+  color: black;
+}
+#searchbox input{
+  width: 400px;
+  height: 30px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
