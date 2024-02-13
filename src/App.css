@@ -1,9 +1,9 @@
 #backgroundimage{
   width: 100vw;
   height: 100vh;
-  background-image: url('WhatsApp\ Image\ 2024-01-31\ at\ 11.02.16\ PM\ \(1\).jpeg');
-  background-size: contain;
-  position: relative;
+  background-image: url('feathers2\ \(1\).jpg');
+  background-size: cover;
+  position: absolute;
 }
 #logo{
   width: 140px;
@@ -20,7 +20,7 @@
 }
 #navbar ul{
   display: flex;
-  column-gap: 200px;
+  column-gap: 100px;
   list-style: none;
   padding-top: 30px;
   text-align: center;

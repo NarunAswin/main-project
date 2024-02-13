@@ -6,6 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter,RouterProvider} from "react-router-dom"
 import About from './pagers/Signin';
 import Signin from './pagers/Signin';
+import Register from './pagers/Register';
+import Contactus from './pagers/Contactus';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -16,6 +19,14 @@ const router = createBrowserRouter([
   {
     path: "Signin",
     element: <Signin/>
+  },
+  {
+    path:"Register",
+    element:<Register/>
+  },
+  {
+    path:"Contactus",
+    element:<Contactus/>
   },
 ]);
 

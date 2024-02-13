@@ -1,16 +1,16 @@
 #backgroundcolor{
-    background-image: url('WhatsApp\ Image\ 2024-01-31\ at\ 11.02.16\ PM\ \(1\).jpeg');
+    background-image: url('pngtree-promotional-red-badminton-background-material-picture-image_1081592.jpg');
     width: 100vw;
     height: 100vh;
-    background-size:contain;
-    position:fixed;
+    background-size:cover;
+    position:absolute;
 }
 #login{
     background-color: white;
     width: 31vw;
     height: 65vh;
     box-shadow: 10px 1px 6px 5px;
-    transform: translate(640px,210px)
+    transform: translate(650px,190px)
 }
 #login h1{
     transform: translate(50px,20px);

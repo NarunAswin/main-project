@@ -3,23 +3,21 @@ import './App.css';
 import { Link } from 'react-router-dom';
 import image1 from './mainlogo/logo2.jpg'
 
-
 function App() {
   return (
     <div className="App">
-      <div id="backgroundimage">
-        <div id="navbar">
+       <div id="navbar">
           <img src={image1} id="logo" />
           <ul>
           <li><Link className='navbarcolor' to={"about"}>HOME</Link></li>
-          <li> <Link  className='navbarcolor' to={"about"}>IMAGES</Link></li>
-          <li> <Link className='navbarcolor' to={"about"}>NEWS</Link></li>
+          <li> <Link  className='navbarcolor' to={"Register"}>REGISTER</Link></li>
+          <li> <Link className='navbarcolor' to={"about"}>ACHIEVEMENTS</Link></li>
           <li><Link className='navbarcolor' to={"Signin"}>SIGNUP</Link></li>
+          <li><Link className='navbarcolor' to={"Contactus"}>CONTACT US</Link></li>
+          <li><Link className='navbarcolor' to={"Signin"}>IMAGES</Link></li>
         </ul>
-        <div id='searchbox'>
-        <input placeholder='search enter' />
         </div>
-        </div>
+      <div id="backgroundimage">
         <p>hello</p>
         <p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p>  
         <p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p><p>hello</p>
