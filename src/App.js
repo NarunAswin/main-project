@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Link } from 'react-router-dom';
-import image1 from './mainlogo/logo2.jpg'
+import image1 from './mainlogo/WhatsApp Image 2024-02-13 at 10.25.33 PM (1).jpeg'
 
 function App() {
   return (

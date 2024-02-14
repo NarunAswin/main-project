@@ -6,8 +6,8 @@
   position: absolute;
 }
 #logo{
-  width: 140px;
-  height: 140px;
+  width: 20vw;
+  height: 14vh;
   cursor: pointer;
 }
 #navbar{
@@ -16,7 +16,7 @@
   text-align: center;
   padding-right: 40px;
   padding-left: 40px;
-  background-color: whitesmoke;
+  background-color: white;
 }
 #navbar ul{
   display: flex;

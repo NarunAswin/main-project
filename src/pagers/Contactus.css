@@ -1,13 +1,87 @@
 #firstdiv{
     width: 100vw;
     height: 50vh;
-    background-color: skyblue;
     text-align: center;
-    position:absolute;
-    background-image: url('badminton\ background.jpg');
+    background-image: url('contact-header.jpg');
     background-size: cover;
 }
 #firstdiv h1{
-    font-size:100px;
+    color: white;
+    font-size:60px;
+    padding-right: 440px;
+    padding-top: 120px;
 
 }
+#seconddivforcontactus{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: white;
+  }
+  #navbar ul{
+    display: flex;
+    column-gap: 100px;
+    list-style: none;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .navbarcolor{
+    text-decoration: none;
+    color: black;
+  }
+  #navbar ul :hover{
+    color: green;
+  }
+  #twocontactus{
+    width: 35vw;
+    height: 65vh;
+    background-color:white;
+    transform: translate(950px,-420px); 
+    
+  }
+ #input1 input{
+    width: 500px;
+    height: 30px;
+    transform: translate(0,40px);
+ }
+ #input2 input{
+    height: 30px;
+    width: 500px;
+    transform: translate(0,60px);
+ }
+ #input3 input{
+    width: 500px;
+    height: 30px;
+    margin-top: 90px;
+ }
+ #input4 input{
+    width: 500px;
+    height: 60px;
+    transform: translate(0,40px);
+ }
+ #twocontactus button{
+    width: 30vw;
+    height: 5vh;
+    transform: translate(40px,80px);
+    background-color: skyblue;
+ }
+ #map{
+  width: 35vw;
+    transform: translate(150px,200px);
+ }
+ #map iframe{
+    height:600px;
+ }
+ #lastdiv{
+    background-color: black;
+    width: 100vw;
+    height: 50vh;
+ }
