@@ -3,7 +3,7 @@
     width: 100vw;
     height: 100vh;
     background-size:cover;
-    position:absolute;
+   
 }
 #login{
     background-color: white;
@@ -22,46 +22,16 @@
 }
 .password input{
     width: 20vw;
-    height: 30px;
+    height: 5vh;
     margin-left: 80px;
 }
 .password h2{
     margin-left: 80px   ;
     text-decoration: underline;
 }
-#button button{
-    width: 18vw;
-    height: 5vh;
-    margin-left: 110px;
-    margin-top: 30px;
-    background-color: gray;
-    color: black;
-    border-radius: 10px;
-}
-#line{
-    width:24vh;
-    height: 2px;
-    background-color: black;
-    margin: 20px ;
-}
-#line p{
-    transform: translate(200px,-10px);
-    font-weight:bold;
-}
-#line2{
-    width:26vh;
-    height: 2px;
-    background-color: black;
-    margin: 20px ;
-    transform: translate(300px,-20px);
-}
-#socialmedialogo ul{
-    margin-left: 120px;
-        list-style: none;
-        display: flex;
-        column-gap: 50px;
-        cursor: pointer;
-}
-#page p{
-    transform: translate(60px,20px);
-}
+
+
+
+
+
+

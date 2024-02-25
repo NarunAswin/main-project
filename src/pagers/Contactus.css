@@ -17,29 +17,7 @@
     height: 100vh;
     background-color: white;
 }
-#navbar{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding-right: 40px;
-    padding-left: 40px;
-    background-color: white;
-  }
-  #navbar ul{
-    display: flex;
-    column-gap: 100px;
-    list-style: none;
-    padding-top: 30px;
-    text-align: center;
-    font-weight: bold;
-  }
-  .navbarcolor{
-    text-decoration: none;
-    color: black;
-  }
-  #navbar ul :hover{
-    color: green;
-  }
+
   #twocontactus{
     width: 35vw;
     height: 65vh;
@@ -73,15 +51,4 @@
     transform: translate(40px,80px);
     background-color: skyblue;
  }
- #map{
-  width: 35vw;
-    transform: translate(150px,200px);
- }
- #map iframe{
-    height:600px;
- }
- #lastdiv{
-    background-color: black;
-    width: 100vw;
-    height: 50vh;
- }
+

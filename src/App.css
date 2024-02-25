@@ -1,16 +1,11 @@
-#backgroundimage{
-  width: 100vw;
-  height: 100vh;
-  background-image: url('feathers2\ \(1\).jpg');
-  background-size: cover;
-  position: absolute;
-}
+
 #logo{
   width: 20vw;
   height: 14vh;
   cursor: pointer;
 }
 #navbar{
+  
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -28,15 +23,67 @@
 }
 .navbarcolor{
   text-decoration: none;
-  color: black;
+  color: black
 }
-#searchbox input{
-  width: 400px;
-  height: 30px;
-  margin-top: 40px;
-  border-radius: 10px;
-}
+
 #navbar ul :hover{
   color: green;
 }
+.menu_line{
+  height: 3px;
+  width: 20px;
+  background-color: green;
+  margin-bottom: 3px;
+ 
+}
+#menu{
+  cursor: pointer;
+  display: none;
+}
+#afterbooststap{
+  width: 100vw;
+  height:10vh;
+  text-align: center;
+  text-decoration: underline;
+}
+#headingtag{
+  width: 100vw;
+  height: 50vh;
+  background-color: antiquewhite;
+  display: flex;
+  column-gap: 50px;
+
+}
+ #homeimage{
+ height: 40vh;
+ margin-left: 50px;
+ margin-top :10px;
+} 
+#headingtag p{
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 50px;
+}
+@media screen and (max-width:600px){
+  #headingtag{
+    display: block;
+    column-gap: 0px;
+  
+  }
+  #homeimage{
+    width: 40vw;
+    height: 20vh;
+  }
+  
+}
+#secondimage{
+  width: 100vw;
+  height: 30vh;
+  background-color: antiquewhite;
+}
+
+
+
+
+
 
