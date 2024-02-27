@@ -8,6 +8,7 @@ import About from './pagers/Signin';
 import Signin from './pagers/Signin';
 import Register from './pagers/Register';
 import Contactus from './pagers/Contactus';
+import Achievements from './pagers/Achievements';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
     path:"Contactus",
     element:<Contactus/>
   },
+  {
+    path:"Achievements",
+    element:<Achievements/>
+  }
 ]);
 
 root.render(

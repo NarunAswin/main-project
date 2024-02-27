@@ -64,25 +64,43 @@
   font-size: 20px;
   padding-top: 50px;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:100px){
   #headingtag{
-    display: block;
+    display: block; 
     column-gap: 0px;
-  
+    overflow: scroll;
   }
   #homeimage{
-    width: 40vw;
-    height: 20vh;
+    width: 60vw;
+    height: 30vh;
   }
   
 }
 #secondimage{
   width: 100vw;
-  height: 30vh;
+  height: 50vh;
   background-color: antiquewhite;
+  display: flex;
+  column-gap: 50px;
 }
-
-
+#secondimage img{
+  height: 40vh;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+#secondimage p{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+@media screen and (max-width:1000px) {
+  #secondimage {
+    position: absolute;
+    display: block;
+    overflow: scroll;
+  }
+  
+}
 
 
 
