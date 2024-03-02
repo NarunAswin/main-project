@@ -49,7 +49,7 @@
 #headingtag{
   width: 100vw;
   height: 50vh;
-  background-color: antiquewhite;
+  /* background-color: goldenrod; */
   display: flex;
   column-gap: 50px;
 
@@ -63,6 +63,7 @@
   font-weight: bold;
   font-size: 20px;
   padding-top: 50px;
+  margin-right: 50px;
 }
 @media screen and (max-width:100px){
   #headingtag{
@@ -79,7 +80,7 @@
 #secondimage{
   width: 100vw;
   height: 50vh;
-  background-color: antiquewhite;
+  /* background-color: chocolate; */
   display: flex;
   column-gap: 50px;
 }
@@ -92,6 +93,7 @@
   font-size: 20px;
   font-weight: bold;
   padding-top: 50px;
+  margin-left: 50px;
 }
 @media screen and (max-width:1000px) {
   #secondimage {
@@ -101,7 +103,13 @@
   }
   
 }
-
-
+#videodiv{
+  width: 100vw;
+  height: 85vh;
+  /* background-color: blanchedalmond; */
+}
+#sumavideo{
+  margin-left: 100px;
+}
 
 

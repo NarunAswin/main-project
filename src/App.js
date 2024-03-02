@@ -8,6 +8,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import homeimage from './images/home image2.jpg';
 import homeimage2 from './images/homeimage1.jpg'
 import Lastdiv from './pagers/Lastdiv';
+import React from 'react'
+import ReactPlayer from 'react-player'
+
 
 function App() {
   return (
@@ -83,9 +86,15 @@ function App() {
         <p>celebrating the spirit of sports in Chennai and cultivating an active community of winning champions, sports professionals, passionate players and dedicated fans especially around the beautiful game of Badminton / Shuttlecock. Besides, our love for Badminton, we are also focused on Cricket, Futsal, Swimming, Archery, Table Tennis & more – all under a world-class, family-friendly indoor arena ambiance across great locations in Chennai. No wonder, we are the largest and fastest-growing chain of indoor sports arenas in Chennai.</p>
         <img src={homeimage2}/>
       </div>
+      <br></br>
       <div id='videodiv'>
-
+        <div id='sumavideo'>
+        <ReactPlayer url='https://youtu.be/50TrFb_KZns?si=WIrfet_hshGwrlK0' width='1300px' height='600px'/>
+        </div>
       </div>
+      <br>
+      </br>
+      <Lastdiv/>
     </div>
   );
 }
