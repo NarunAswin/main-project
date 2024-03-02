@@ -1,13 +1,14 @@
 #lastdiv{
     background-color: black;
     width: 100vw;
-    height: 85vh;
+    height: 80vh;
+     display: flex; 
  }
  #logodiv{
     margin-left: 30px;
     margin-top: 30px;
-    background-color: antiquewhite;
-    width: 35vw;
+    /* background-color: antiquewhite;   */
+    width: 30vw;
     height: 70vh;
  }
 #logodiv img{
@@ -17,13 +18,54 @@
 #para{
    width: 30vw;
    height: 40vh;
-   background-color: aqua;
    margin-top: 20px;
+   color: goldenrod;
+}
+#para p{
+   padding-left: 60px;
+}
+#contactus{
+   width: 30vw;
+   height: 80vh;
+      /* background-color: aqua;    */
+}
+#contactus h1{
+   text-align: center;
+   color:goldenrod;
+   margin-top: 60px;
+}
+#icons{
    color: green;
+   transform: translate(110px,20px);
+
+}
+#phone{
+   display: flex;
+   column-gap: 10px;
+   text-decoration: underline;
+}
+#mail{
+   display: flex;
+   column-gap: 10px;
+  
+}
+#landmark{
+   display: flex;
+   color: green;
+   column-gap: 10px;
+   
+}
+#divlogo img{
+   margin-top: 100px;
+   margin-left: 150px;
+}
+.socialmedia{
+   margin-top: 30px;
+   margin-left: 50px;
+   transform: translate(30px);
+   cursor: pointer;
 }
 #socialmedia{
-   width: 20vw;
-   height: 7vh;
-   margin-top: 2px;
-   background-color: blue;
+   transform: translate(0px,30px);
 }
+

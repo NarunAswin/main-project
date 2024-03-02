@@ -7,6 +7,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import homeimage from './images/home image2.jpg';
 import homeimage2 from './images/homeimage1.jpg'
+import Lastdiv from './pagers/Lastdiv';
 
 function App() {
   return (
