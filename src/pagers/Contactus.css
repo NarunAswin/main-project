@@ -15,40 +15,29 @@
 #seconddivforcontactus{
     width: 100vw;
     height: 100vh;
-    background-color: white;
+    background-color: bisque;
+}
+#contactus1{
+  display: flex;
+  column-gap: 40px;
+   width: 100vw;
+   height: 100vh;
+   background-color: aqua;
+}
+#contactus1 iframe{
+   width: 40vw;
+   height: 70vh;
+   margin-left: 30px;
+   margin-top: 40px;
+}
+#aftermap{
+   margin-top: 30px;
+   background-color: blue;
+   width: 50vw;
+   height: 80vh;
+   
 }
 
-  #twocontactus{
-    width: 35vw;
-    height: 65vh;
-    background-color:white;
-    transform: translate(950px,-420px); 
-    
-  }
- #input1 input{
-    width: 500px;
-    height: 30px;
-    transform: translate(0,40px);
- }
- #input2 input{
-    height: 30px;
-    width: 500px;
-    transform: translate(0,60px);
- }
- #input3 input{
-    width: 500px;
-    height: 30px;
-    margin-top: 90px;
- }
- #input4 input{
-    width: 500px;
-    height: 60px;
-    transform: translate(0,40px);
- }
- #twocontactus button{
-    width: 30vw;
-    height: 5vh;
-    transform: translate(40px,80px);
-    background-color: skyblue;
- }
+
+
 
