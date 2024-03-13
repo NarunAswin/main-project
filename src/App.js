@@ -23,7 +23,7 @@ function App() {
           <li> <Link className='navbarcolor' to={"Achievements"}>ACHIEVEMENTS</Link></li>
           <li><Link className='navbarcolor' to={"Signin"}>SIGNUP</Link></li>
           <li><Link className='navbarcolor' to={"Contactus"}>CONTACT US</Link></li>
-          <li><Link className='navbarcolor' to={"Signin"}>IMAGES</Link></li>
+          <li><Link className='navbarcolor' to={"Imagepage"}>IMAGES</Link></li>
         </ul>
       </div>
       <br>

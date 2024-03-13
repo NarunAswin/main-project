@@ -15,14 +15,14 @@
 #seconddivforcontactus{
     width: 100vw;
     height: 100vh;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 #contactus1{
   display: flex;
   column-gap: 40px;
    width: 100vw;
    height: 100vh;
-   background-color: aqua;
+   /* background-color: aqua; */
 }
 #contactus1 iframe{
    width: 40vw;
@@ -32,11 +32,11 @@
 }
 #aftermap{
    margin-top: 30px;
-   background-color: blue;
+   /* background-color: blue; */
    width: 50vw;
    height: 80vh;
-   
 }
+
 
 
 

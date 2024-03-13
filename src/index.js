@@ -9,6 +9,8 @@ import Signin from './pagers/Signin';
 import Register from './pagers/Register';
 import Contactus from './pagers/Contactus';
 import Achievements from './pagers/Achievements';
+import Imagepage from './Imagepage';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -32,7 +34,11 @@ const router = createBrowserRouter([
   {
     path:"Achievements",
     element:<Achievements/>
-  }
+  },
+  {
+  path:"Imagepage",
+  element:<Imagepage/>
+  },
 ]);
 
 root.render(
