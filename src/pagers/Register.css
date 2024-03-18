@@ -1,0 +1,40 @@
+#registerfirstdiv{
+    width: 100vw;
+    /* height: 100vh; */
+    /* background-color: burlywood; */
+    background-image: url(competitive-sports-high-performance-tournament-match-conceptual-idea-badminton-rackets-shuttlecock-birdie-isolated-186243851.webp);
+    background-size: cover;
+    position: absolute;
+}
+#innerdivforregister1{
+    width: 50vw;
+    /* height: 80vh; */
+    /* background-color: aqua; */
+    margin-left: 380px;
+    margin-top: 30px;
+    /* border-radius: 30px; */
+}
+#namediv2{
+    width: 50vw;
+    height: 10vh;
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+#rules{
+    text-align: center;
+    text-decoration: underline;
+}
+#paraforrules{
+    margin-left: 10px;
+}
+#food{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#food2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+

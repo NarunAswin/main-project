@@ -8,7 +8,6 @@ function Achievements() {
   return (
     <div>
         <Navbar> </Navbar>
-       
         <div id='cursol'>
         <Container>
         <Row>
