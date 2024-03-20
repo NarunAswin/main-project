@@ -11,7 +11,7 @@ function Imagepage() {
         </div>
         <br></br>
         <div id='seconddiv'>
-
+          
         </div>
     </div>
   )

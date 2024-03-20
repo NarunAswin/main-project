@@ -5,6 +5,7 @@ import './Register.css'
 import Form from 'react-bootstrap/Form';
 import { Col, Container, Row } from 'react-bootstrap';
 import Lastdiv from './Lastdiv';
+import Button from 'react-bootstrap/Button';
 
 function Register() {
   return (
@@ -71,7 +72,12 @@ function Register() {
             </div>
           </div>
         </div>
-       
+        <div id='buttonreg'>
+        <Button variant="primary">submit</Button>{' '}
+        </div>
+        <br></br>
+        <br></br>
+        <Lastdiv></Lastdiv>
       </div>
     </div>
   )

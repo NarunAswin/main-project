@@ -1,3 +1,40 @@
+#firstdivsign{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pexels-shvets-production-8007176.jpg);
+    background-size: cover;
+    position: absolute;
+    
+}
+#seconddivsign{
+    width:53vw;
+    height: 67vh;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+#maindiv{
+    height: 56vh;
+    margin-left: 50px;
+    margin-top: 60px;
+    display: flex;
+    column-gap: 80px;
+}
+#maindiv img{
+    width: 24vw;
+    margin-top: -85px;
+}
+#maindiv h4{
+    text-align: center;
+}
+#maindiv button{
+    text-align: center;
+}
+#lastdivsig{
+    margin-top: 145px;
+}
+
 
 
 
