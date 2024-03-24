@@ -12,7 +12,47 @@
     padding-top: 120px;
 }
 #seconddiv{
-    background-color: antiquewhite;
     width: 100vw;
-    height: 100vh;
+    height: 80vh; 
+    display: flex;
+    column-gap: 100px;
+    /* background-color: antiquewhite; */
+   
+}
+.image1{
+     width: 25vw;
+    height: 40vh;
+}
+.game{
+   padding-top: 40px;
+   color: green;
+}
+.firstimagediv{ 
+    margin-top: 100px;
+    margin-left: 150px;
+    text-align: center;
+    width: 400px;
+   height: 400px; 
+/* background-color:black; */
+}
+#thirddiv{
+    width: 100vw;
+    height: 80vh; 
+    display: flex;
+    column-gap: 100px;
+    /* background-color: antiquewhite; */
+}
+#fourthdiv{
+    width: 100vw;
+    height: 80vh; 
+    display: flex;
+    column-gap: 100px;
+    /* background-color: antiquewhite; */
+}
+#singleimage{
+    width: 100vw;
+    height: 80vh; 
+    display: flex;
+    column-gap: 100px;
+    /* background-color: antiquewhite; */
 }
