@@ -17,8 +17,8 @@ function Lastdiv() {
       <div id='logodiv'>
         <img src={image2} />
         <div id='para'>
-          <p>Chennai's premier Badminton training academy and largest chain of indoor sports venues for Badminton, Swimming, Cricket, Futsal and other sports featuring world-class Kawasaki branded indoor badminton courts, a freshwater indoor swimming pool and an indoor venue for cricket, futsal, table tennis, archery and more.</p>
-          <p>Chennai's premier Badminton training academy and largest chain of indoor sports venues for Badminton, Swimming, Cricket, Futsal and other sports featuring world-class Kawasaki branded indoor badminton courts, a freshwater indoor swimming pool and an indoor venue for cricket, futsal, table tennis, archery and more.</p>
+          <p> Feathers Badminton Academy in Chennai welcomes players of all levels to experience the thrill of the game in a supportive environment. Our state-of-the-art facility is equipped with top-notch amenities, ensuring an optimal training experience for every participant. Under the guidance of our experienced coaches, beginners can learn the fundamentals while advanced players can refine their techniques.</p>
+          <p> Join our vibrant community and forge lifelong friendships as you pursue your passion for badminton. At Feathers, we believe in nurturing talent and helping each player reach their full potential on and off the court. Come be a part of our dynamic academy and elevate your game to new heights!</p>
         </div>
 
       </div>
@@ -27,7 +27,7 @@ function Lastdiv() {
         <div id='icons'>
           <div id='phone'>
             <FaPhone />
-            <p>+91 9789070669</p>
+            <p>+91 9677289131</p>
           </div>
           <div id='mail'>
             <CgMail />

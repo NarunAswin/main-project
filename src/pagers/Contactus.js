@@ -25,7 +25,7 @@ function Contactus() {
               <h1>CONNECT WITH US</h1>
               <br></br>
               <div id='paragraphtag'>
-                <p>Chennai's premier Badminton training academy and largest chain of indoor sports venues for Badminton, Swimming, Cricket, Futsal and other sports featuring world-class Kawasaki branded indoor badminton courts, a freshwater indoor swimming p</p>
+                <p>Feathers Badminton Academy, the top destination in Chennai for badminton enthusiasts, provides unparalleled training and facilities. Our expert coaches will guide you to success as you refine your skills and compete at the highest level. Join our community today and elevate your game to new heights!</p>
                 <br></br>
                 <div id='namediv'>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
