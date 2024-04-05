@@ -6,8 +6,23 @@ import Navbar from './Navbar';
 import Lastdiv from './Lastdiv';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import { useState } from 'react';
 
 function Contactus() {
+  const[user,setuser]=useState({
+    examplearea:"",
+    emailid:"",
+    name:""
+  })
+  function storedtext(e){
+    console.log(e.target.name)
+    setuser({...user,[e.target.name]:e.target.value})
+  }
+
+  function submitvalues() {
+    console.log(user)
+  }
+
   return (
     <div>
       <Navbar></Navbar>
@@ -28,33 +43,30 @@ function Contactus() {
                 <p>Feathers Badminton Academy, the top destination in Chennai for badminton enthusiasts, provides unparalleled training and facilities. Our expert coaches will guide you to success as you refine your skills and compete at the highest level. Join our community today and elevate your game to new heights!</p>
                 <br></br>
                 <div id='namediv'>
-                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1" >
                       <Form.Label>Name</Form.Label>
-                      <Form.Control type="email" placeholder="Enter Your Name" />
+                      <Form.Control placeholder="Enter Your Name"  value={name} onChange={(e)=>{storedtext(e)}}/>
                     </Form.Group>
                 </div>
                 <br></br>
                 <div id='emaildiv'>
                   <Form>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1" >
                       <Form.Label>Email address</Form.Label>
-                      <Form.Control type="email" placeholder="name@example.com" />
+                      <Form.Control type="email" placeholder="name@example.com" name='emailid' onChange={(e)=>{storedtext(e)}} />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                       <Form.Label>Example textarea</Form.Label>
-                      <Form.Control as="textarea" rows={3} />
+                      <Form.Control as="textarea" rows={3} name='examplearea' onChange={(e)=>{storedtext(e)}}/>
                     </Form.Group>
                   </Form>
                 </div>
                 <div id='submitbutton'>
                   <div className="d-grid gap-2">
-                    <Button variant="primary" size="lg">
+                    <Button variant="primary" size="lg"  type='submit'  onClick={submitvalues}>
                      CLICK HERE TO CONNECT
-                    </Button>
-                   
+                    </Button> 
                   </div>
-
-
                 </div>
               </div>
             </div>
