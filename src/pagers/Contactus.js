@@ -23,7 +23,7 @@ function Contactus() {
         {
         
         name: name,
-        email : email,
+        gmail : email,
         commends : exampletext
         
         });
