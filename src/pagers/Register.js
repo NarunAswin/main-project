@@ -28,7 +28,7 @@ function Register() {
                   <Form>
                     <Form.Group className="mb-3" >
                       <Form.Label>First Name</Form.Label>
-                      <Form.Control placeholder="Enter First Name" type='Name' />
+                      <Form.Control placeholder="Enter First Name" type='Name'  />
                     </Form.Group>
                     <Form.Group className="mb-3" >
                       <Form.Label>Last Name</Form.Label>

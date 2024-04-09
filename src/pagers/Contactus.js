@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import image1 from './WhatsApp Image 2024-02-13 at 10.25.33 PM (1).jpeg';
 import './Contactus.css';
@@ -7,22 +7,39 @@ import Lastdiv from './Lastdiv';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
+import  axios  from 'axios';
 
 function Contactus() {
-  const[user,setuser]=useState({
-    examplearea:"",
-    emailid:"",
-    name:""
-  })
-  function storedtext(e){
-    console.log(e.target.name)
-    setuser({...user,[e.target.name]:e.target.value})
-  }
+  const [name,setname]= useState("");
+  const [email,setemail]= useState("");
+  const [exampletext,setexampletext]= useState("");
 
-  function submitvalues() {
-    console.log(user)
-  }
-
+  async function save(event)
+    {
+        event.preventDefault();
+    try
+        {
+         await axios.post("http://localhost:8085/save",
+        {
+        
+        name: name,
+        email : email,
+        commends : exampletext
+        
+        });
+          alert("your respronse recerived  Successfully");
+          setname("");
+          setemail("");
+          setexampletext("");
+        
+        
+        }
+    catch(err)
+        {
+          alert("User Registation Failed");
+        }
+   }
+  
   return (
     <div>
       <Navbar></Navbar>
@@ -34,7 +51,6 @@ function Contactus() {
       <div id="seconddivforcontactus">
         <div id='contactus1'>
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15548.999163913528!2d80.1302412!3d13.0197588!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261b19e8e870b%3A0x465da6efce2f6a3!2sFeathers%20badminton%20court!5e0!3m2!1sen!2sin!4v1709461108934!5m2!1sen!2sin" width="600" height="450" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br></br>
-
           <div id='aftermap'>
             <div id='connectdiv'>
               <h1>CONNECT WITH US</h1>
@@ -45,7 +61,7 @@ function Contactus() {
                 <div id='namediv'>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1" >
                       <Form.Label>Name</Form.Label>
-                      <Form.Control placeholder="Enter Your Name"  value={name} onChange={(e)=>{storedtext(e)}}/>
+                      <Form.Control placeholder="Enter Your Name"   onChange={(event)=>{setname(event.target.value)}}/>
                     </Form.Group>
                 </div>
                 <br></br>
@@ -53,17 +69,17 @@ function Contactus() {
                   <Form>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1" >
                       <Form.Label>Email address</Form.Label>
-                      <Form.Control type="email" placeholder="name@example.com" name='emailid' onChange={(e)=>{storedtext(e)}} />
+                      <Form.Control type="email" placeholder="name@example.com" name='emailid' onChange={(event)=>{setemail(event.target.value)}} />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                       <Form.Label>Example textarea</Form.Label>
-                      <Form.Control as="textarea" rows={3} name='examplearea' onChange={(e)=>{storedtext(e)}}/>
+                      <Form.Control as="textarea" rows={3} name='examplearea'  onChange={(event)=>{setexampletext(event.target.value)}}/>
                     </Form.Group>
                   </Form>
                 </div>
                 <div id='submitbutton'>
                   <div className="d-grid gap-2">
-                    <Button variant="primary" size="lg"  type='submit'  onClick={submitvalues}>
+                    <Button variant="primary" size="lg"  type='submit' onClick={save}  >
                      CLICK HERE TO CONNECT
                     </Button> 
                   </div>

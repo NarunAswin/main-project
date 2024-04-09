@@ -9,12 +9,12 @@ function Navbar() {
             <div id="navbar">
                 <img src={image1} id="logo" />
                 <ul>
-                    <li><Link className='navbarcolor' to={"about"}>HOME</Link></li>
-                    <li> <Link className='navbarcolor' to={"Register"}>REGISTER</Link></li>
-                    <li> <Link className='navbarcolor' to={"chievements"}>ACHIEVEMENTS</Link></li>
-                    <li><Link className='navbarcolor' to={"Signin"}>SIGNUP</Link></li>
-                    <li><Link className='navbarcolor' to={"Contactus"}>CONTACT US</Link></li>
-                    <li><Link className='navbarcolor' to={"Imagepage"}>IMAGES</Link></li>
+                    <li><Link className='navbarcolor' to={"/"}>HOME</Link></li>
+                    <li> <Link className='navbarcolor' to={"/Register"}>REGISTER</Link></li>
+                    <li> <Link className='navbarcolor' to={"/Achievements"}>ACHIEVEMENTS</Link></li>
+                    <li><Link className='navbarcolor' to={"/Signin"}>SIGNUP</Link></li>
+                    <li><Link className='navbarcolor' to={"/Contactus"}>CONTACT US</Link></li>
+                    <li><Link className='navbarcolor' to={"/Imagepage"}>IMAGES</Link></li>
                 </ul>
             </div>
         </div>
