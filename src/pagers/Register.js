@@ -6,8 +6,48 @@ import Form from 'react-bootstrap/Form';
 import { Col, Container, Row } from 'react-bootstrap';
 import Lastdiv from './Lastdiv';
 import Button from 'react-bootstrap/Button';
+import { useState } from 'react';
+import  axios  from 'axios';
 
 function Register() {
+  const [firstname,setfirstname]= useState("");
+  const [lastname,setlastname]= useState("");
+  const [dob,setdateofbirth]= useState("");
+  const [phoneno,setphoneno]=useState("");
+  const [email,setemail]=useState("");
+  const [timing,settiming]=useState("");
+
+  async function stored(e)
+    {
+        e.preventDefault();
+    try
+        {
+         await axios.post("http://localhost:8085/stored",
+        {
+        
+        firstname: firstname,
+        lastname : lastname,
+        dateofbirth : dob,
+        phoneno:phoneno,
+        email:email,
+        timing:timing
+
+        });
+          alert("your respronse recerived  Successfully");
+          setfirstname("");
+          setlastname("");
+          setdateofbirth("");
+          setphoneno("");
+          setemail("");
+          settiming("");
+        }
+    catch(err)
+        {
+          alert("User Registation Failed");
+        }
+   }
+  
+
   return (
     <div>
       <div>
@@ -28,26 +68,26 @@ function Register() {
                   <Form>
                     <Form.Group className="mb-3" >
                       <Form.Label>First Name</Form.Label>
-                      <Form.Control placeholder="Enter First Name" type='Name'  />
+                      <Form.Control placeholder="Enter First Name" type='Name'  onChange={(e)=>{setfirstname(e.target.value)}} />
                     </Form.Group>
                     <Form.Group className="mb-3" >
                       <Form.Label>Last Name</Form.Label>
-                      <Form.Control placeholder="Ex:Kumar" />
+                      <Form.Control placeholder="Ex:Kumar"  onChange={(e)=>{setlastname(e.target.value)}}/>
                     </Form.Group>
                     <Form.Group className="mb-3" >
                       <Form.Label>DOB</Form.Label>
-                      <Form.Control type='date' placeholder="date of birth" />
+                      <Form.Control type='date' placeholder="date of birth"  onChange={(e)=>{setdateofbirth(e.target.value)}}/>
                     </Form.Group>
                     <Form.Group className="mb-3" >
                       <Form.Label>Phone Number</Form.Label>
-                      <Form.Control type='tel' placeholder=" Ex:(123456780)" />
+                      <Form.Control type='tel' placeholder=" Ex:(123456780)" onChange={(e)=>{setphoneno(e.target.value)}} />
                     </Form.Group>
                     <Form.Group className="mb-3" >
                       <Form.Label>E-mail</Form.Label>
-                      <Form.Control placeholder="Ex:aswin@gmail.com" type='email' />
+                      <Form.Control placeholder="Ex:aswin@gmail.com" type='email' onChange={(e)=>{setemail(e.target.value)}}/>
                     </Form.Group>
                     <Form.Label>Select Your Preferred time slot for Training </Form.Label>
-                    <Form.Select aria-label="Default select example">
+                    <Form.Select aria-label="Default select example" onChange={(e)=>{settiming(e.target.value)}}>
                       <option>Select Timing</option>
                       <option value="1">11AM to 1pm</option>
                       <option value="2">1pm to 3pm</option>
@@ -73,7 +113,7 @@ function Register() {
           </div>
         </div>
         <div id='buttonreg'>
-        <Button variant="primary">submit</Button>{' '}
+        <Button variant="primary" onClick={stored} >submit </Button>{' '}
         </div>
         <br></br>
         <br></br>
