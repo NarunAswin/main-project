@@ -17,6 +17,7 @@ function Register() {
   const [email,setemail]=useState("");
   const [timing,settiming]=useState("");
 
+
   async function stored(e)
     {
         e.preventDefault();
@@ -89,9 +90,9 @@ function Register() {
                     <Form.Label>Select Your Preferred time slot for Training </Form.Label>
                     <Form.Select aria-label="Default select example" onChange={(e)=>{settiming(e.target.value)}}>
                       <option>Select Timing</option>
-                      <option value="1">11AM to 1pm</option>
-                      <option value="2">1pm to 3pm</option>
-                      <option value="3">3pm to 5pm </option>
+                      <option value="11am to 1pm ">11AM to 1pm</option>
+                      <option value="1pm to 3pm">1pm to 3pm</option>
+                      <option value="3pm to 5pm">3pm to 5pm </option>
                     </Form.Select>
                   </Form>
                 </Col>

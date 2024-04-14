@@ -1,40 +1,64 @@
-#firstdivsign{
+#firstdivabout{
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    background-image: url('contact-header.jpg');
+    background-size: cover;
+}
+#firstdivabout h1{
+    color: white;
+    font-size:60px;
+    padding-right: 440px;
+    padding-top: 120px;
+}
+#game3{
     width: 100vw;
     height: 100vh;
-    background-image: url(pexels-shvets-production-8007176.jpg);
-    background-size: cover;
-    position: absolute;
-    
+    display: flex;
+    column-gap: 150px;
+    /* background-color: antiquewhite; */
 }
-#seconddivsign{
-    width:53vw;
-    height: 67vh;
-    background-color: white;
-    margin-left: 300px;
+#game3 img{
+    width: 39vw;
+    height: 50vh;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+#paragame3 h5{
+    color: orange;
+}
+#paragame3{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#game4{
+    width: 100vw;
+    height: 50vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    column-gap: 120px;
+}
+
+#game10{
+    margin-left: 70px;
+    margin-top: 30px;
+    display: flex;
+    column-gap: 200px;
+}
+
+.game14{
+    text-align: center;
+    margin-left: px;
     margin-top: 100px;
 }
-
-#maindiv{
-    height: 56vh;
-    margin-left: 50px;
-    margin-top: 60px;
-    display: flex;
-    column-gap: 80px;
-}
-#maindiv img{
-    width: 24vw;
-    margin-top: -85px;
-}
-#maindiv h4{
+#bigil h3{
     text-align: center;
+    color: orange;
 }
-#maindiv button{
-    text-align: center;
+.h5k{
+    margin-top: 15px;
 }
-#lastdivsig{
-    margin-top: 145px;
-}
-
 
 
 

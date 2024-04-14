@@ -10,40 +10,59 @@ import homeimage2 from './images/homeimage1.jpg'
 import Lastdiv from './pagers/Lastdiv';
 import React from 'react'
 import ReactPlayer from 'react-player'
-import { Segment } from 'semantic-ui-react';
+
 
 function App() {
-  
-
   return (
     <div>
       <>
         <ChatBot
-        steps={[
-          {
-            id: '1',
-            message: 'What number I am thinking?',
-            trigger: '2',
-          },
-          {
-            id: '2',
-            options: [
-              { value: 1, label: 'Number 1', trigger: '4' },
-              { value: 2, label: 'Number 2', trigger: '3' },
-              { value: 3, label: 'Number 3', trigger: '3' },
-            ],
-          },
-          {
-            id: '3',
-            message: 'Wrong answer, try again.',
-            trigger: '2',
-          },
-          {
-            id: '4',
-            message: 'Awesome! You are a telepath!',
-            end: true,
-          },
-        ]}
+          steps={[
+            {
+              
+              id: '1',
+              message: 'welocme to Feathers Badminton Academy , What is your name?',
+              trigger: '2',
+            },
+            {
+              id: '2',
+              user: true,
+              trigger: '3',
+            },
+            {
+              id: '3',
+              message: 'Hi {previousValue}, I hope you will enjoy This!',
+             trigger:'4'
+            },
+            {
+              id: '4',
+              message: 'should i navigate you to register page or contuctus page?',
+              trigger: '5',
+            },
+            {
+              id: '5',
+              options: [
+                { value: 1, label: 'academy timing ', trigger: '6' },
+                { value: 2, label: 'contact number', trigger: '7' },
+                { value: 3, label: 'EXIT', trigger: '8' },
+              ],
+            },
+            {
+              id:'7',
+              message:'+919677289131',
+              trigger:'5'
+            },
+            {
+              id: '8',
+              message: 'Thankyou For Choosing Feathers Badminton Academy',
+              end:true,
+            },
+            {
+              id: '6',
+              message: 'morning 8am to evening 6pm',
+              trigger:'5'
+            },
+          ]}
           floating={true}
         />
       </>
