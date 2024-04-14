@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter,RouterProvider} from "react-router-dom"
-import About from './pagers/Signin';
-import Signin from './pagers/Signin';
+import About from './pagers/About';
+import Signin from './pagers/About';
 import Register from './pagers/Register';
 import Contactus from './pagers/Contactus';
 import Achievements from './pagers/Achievements';
@@ -20,8 +20,8 @@ const router = createBrowserRouter([
     element:<App/>
   },
   {
-    path: "Signin",
-    element: <Signin/>
+    path: "About",
+    element: <About/>
   },
   {
     path:"Register",

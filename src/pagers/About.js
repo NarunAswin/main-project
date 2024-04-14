@@ -1,5 +1,5 @@
 import React from 'react'
-import './Signin.css';
+import './About.css';
 import image11 from './sindhuallenglandbadminton-1521369698.jpg'
 import image91 from './cctv.png';
 import image90 from './power.png'
@@ -10,7 +10,7 @@ import Lastdiv from './Lastdiv';
   
 
 
-function Signin() {
+function About() {
   return (
     <div>
       <Navbar></Navbar>
@@ -71,4 +71,4 @@ function Signin() {
   )
 }
 
-export default Signin
+export default About
