@@ -14,7 +14,7 @@ function Navbar() {
                     <li> <Link className='navbarcolor' to={"/Achievements"}>ACHIEVEMENTS</Link></li>
                     <li><Link className='navbarcolor' to={"/About"}>ABOUT</Link></li>
                     <li><Link className='navbarcolor' to={"/Contactus"}>CONTACT US</Link></li>
-                    <li><Link className='navbarcolor' to={"/Imagepage"}>IMAGES</Link></li>
+                    <li><Link className='navbarcolor' to={"/Gallery"}>GALLERY</Link></li>
                 </ul>
             </div>
         </div>

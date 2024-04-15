@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './pagers/Navbar';
-import './Imagepage.css';
+import './Gallery.css';
 import Image from 'react-bootstrap/Image';
 import pic1 from './pagers/imagepage/image1 (2).jpg';
 import pic2 from './pagers/imagepage/image2 (2).jpg';
@@ -17,7 +17,7 @@ function Imagepage() {
         <Navbar></Navbar>
         <br></br>
         <div id='imagefirstdiv'>
-        <h1>IMAGES</h1>
+        <h1>GALLERY</h1>
         </div>
         <br></br>
         <div id='seconddiv'>

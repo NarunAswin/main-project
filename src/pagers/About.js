@@ -33,14 +33,14 @@ function About() {
         <img src={image11}/>
         <div  id='game10'>
           <div>
-          <h2>100k <h5>PLAYERS</h5></h2>
+          <h2>450+ <h5>TOTAL MATCHES</h5></h2>
           <br></br>
-        <h2>100k <h5>PLAYERS</h5></h2>
+        <h2>8 <h5>COACHES</h5></h2>
           </div>
           <div>
-          <h2>100k <h5>PLAYERS</h5></h2>
+          <h2>100+ <h5>ACHIEVEMENTS</h5></h2>
           <br></br>
-        <h2>100k <h5>PLAYERS</h5></h2>
+        <h2>50+ <h5>TOTAL MEMBERS</h5></h2>
           </div>
         </div>
         </div>

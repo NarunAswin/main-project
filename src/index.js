@@ -9,7 +9,7 @@ import Signin from './pagers/About';
 import Register from './pagers/Register';
 import Contactus from './pagers/Contactus';
 import Achievements from './pagers/Achievements';
-import Imagepage from './Imagepage';
+import Gallery from './Gallery';
 
 
 
@@ -36,8 +36,8 @@ const router = createBrowserRouter([
     element:<Achievements/>
   },
   {
-  path:"Imagepage",
-  element:<Imagepage/>
+  path:"Gallery",
+  element:<Gallery/>
   },
 ]);
 
